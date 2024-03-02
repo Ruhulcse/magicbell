@@ -19,7 +19,7 @@ app.get("/", function (req, res) {
 const PORT = process.env.PORT || 4000;
 
 app.listen(PORT, "0.0.0.0", () => {
-  console.log(`server listening :${PORT}`);
+  console.log(`server listening  :${PORT}`);
 });
 
 module.exports = app;
